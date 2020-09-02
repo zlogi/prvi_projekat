@@ -1,0 +1,229 @@
+*   {
+    /* outline: 1px dashed red; */
+    margin: 0px;
+    padding: 0px;
+    transition: .3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    position: relative;
+    width: 90%;
+    height: 150px;
+    background-color: white;
+    padding-left: 50px;
+    text-align: center;
+    
+}
+header img  {
+    width: 150px;
+    height: 150px;
+}
+nav ul  {
+    list-style-type: none;
+    margin: 0px;
+    text-align: center;
+}
+nav li  {
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-left: 25px;
+}
+nav li a {
+    text-decoration: none;
+    color: rgb(15, 73, 15);
+}
+nav li a:hover  {
+    background-color:rgb(15, 73, 15); 
+    color: white;
+}
+#home {
+    margin-top: 20px;
+    background-image: url(https://trialectics.net/wp-content/uploads/2017/05/moss-520x245.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+#home .video    {
+    padding-top: 100px;
+}
+#home .moto {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 20px;
+    border: 1px solid green;
+    background-color:rgba(24, 68, 24, 0.5);
+    border-radius: 20px;
+    margin-left: 390px;
+    margin-right: 390px;
+}
+#home p {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;   
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 560px;
+}
+#blog   {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    box-sizing: inherit;
+}
+#blog-main  {
+    width: 95%;
+    margin: auto;
+    box-sizing: inherit;
+    display: block;
+    position: relative;
+}
+#blog-main h1 {
+    font-size: 50px;
+    color: rgb(27, 68, 27);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+}
+#blog #blog-main #primary {
+    display: inline-block;
+    width: 60%;
+    padding-right: 20px;
+    position: relative;
+    border-right: 1px solid rgb(27, 68, 27);
+}
+#blog #blog-main #primary button:hover {
+    background-color:rgb(27, 68, 27) ;
+    color: white;
+}
+#blog #primary #first-post,
+#blog #primary #second-post {
+    display: inline-block;
+}
+#blog #primary #first-post h1,
+#blog #primary #second-post h1  {
+    text-align: justify;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 0px;
+    color: rgb(27, 68, 27);
+}
+#blog #primary #first-post p,
+#blog #primary #second-post p   {
+    text-align: justify;
+    display: block;
+    padding: 0px 10px 10px;
+    margin: 10px;
+    margin-top: 0px;
+    height: 40px;
+    overflow: hidden;
+}
+#blog #secondary {
+    margin-top: 10px;
+    position: relative;
+    float: right;
+    display: inline-block;
+    width: 33%;
+}
+#blog #secondary button:hover   {
+    background-color:rgb(27, 68, 27) ;
+    color: white;
+}
+#blog #secondary #text {
+    float: right;
+    text-align: justify;
+    margin: 0px 20px;
+}
+#blog #secondary #text h2 {
+    text-align: center;
+    color: rgb(27, 68, 27);
+}
+#blog #secondary button {
+    width: 60px;
+}
+#blog #secondary input {
+    width:200px;
+    height: 20px;
+  
+}
+#about  {
+    height: 100vh;
+    background-image: url(https://english-blog.s3.amazonaws.com/uploads/2020/06/Pledging-To-Protect-Nature-On-World-Environment-Day.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#about h1 {
+    font-size: 55px;
+    text-align: center;
+    margin: 20px;
+    padding-top: 140px;
+    text-shadow: 2px 2px grey;
+    color: white;
+}
+#about p    {
+    font-size: 25px;
+    text-align: justify;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 40px;
+    color: white;
+    text-shadow: 2px 2px grey;
+    box-sizing: border-box;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+}
+#contact {
+   height: 120vh;
+   box-sizing: border-box;
+}
+#contact h1 {
+    text-align: center;
+    font-size: 55px;
+    color:rgb(27, 68, 27);
+    padding-top: 30px;
+}
+#contact p  {
+    text-align: justify;
+    width: 500px;
+    margin: auto;
+    color: rgb(27, 68, 27);
+}
+#contact form {
+    width: 500px;
+    margin: auto;
+    padding: 5px;
+}
+#contact form input,
+#contact form textarea {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(180,180,180);
+    font-size: 18px;
+    padding: 0px 20px;
+}
+#contact form textarea {
+    height: 150px;
+}
+#contact form button {
+    width: 542px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(44,83,44);
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border: 1px solid rgb(30, 56, 30);
+    letter-spacing: 2px;
+}
